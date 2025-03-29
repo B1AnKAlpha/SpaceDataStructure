@@ -71,7 +71,7 @@ void Widget::on_pushButton_clicked()
     LNode *p = L->next;
     QString output;
     while (p) {
-        output += QString::number(p->data, 'f', 4) + " "; // 使用 'f' 保留两位小数
+        output += QString::number(p->data, 'f', 5) + " "; // 使用 'f' 保留两位小数
         p = p->next;
     }
     ui->lineEdit_3->setText(output.trimmed());
