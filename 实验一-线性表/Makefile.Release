@@ -714,24 +714,7 @@ release/widget.o: widget.cpp widget.h \
 		../../../../Qt/6.8.3/mingw_64/include/QtGui/qinputmethod.h \
 		../../../../Qt/6.8.3/mingw_64/include/QtCore/qlocale.h \
 		../../../../Qt/6.8.3/mingw_64/include/QtGui/qguiapplication_platform.h \
-		ui_widget.h \
-		../../../../Qt/6.8.3/mingw_64/include/QtCore/QVariant \
-		../../../../Qt/6.8.3/mingw_64/include/QtWidgets/QApplication \
-		../../../../Qt/6.8.3/mingw_64/include/QtWidgets/qapplication.h \
-		../../../../Qt/6.8.3/mingw_64/include/QtWidgets/QLabel \
-		../../../../Qt/6.8.3/mingw_64/include/QtWidgets/qlabel.h \
-		../../../../Qt/6.8.3/mingw_64/include/QtWidgets/qframe.h \
-		../../../../Qt/6.8.3/mingw_64/include/QtGui/qpicture.h \
-		../../../../Qt/6.8.3/mingw_64/include/QtGui/qtextdocument.h \
-		../../../../Qt/6.8.3/mingw_64/include/QtWidgets/QLineEdit \
-		../../../../Qt/6.8.3/mingw_64/include/QtWidgets/qlineedit.h \
-		../../../../Qt/6.8.3/mingw_64/include/QtGui/qtextcursor.h \
-		../../../../Qt/6.8.3/mingw_64/include/QtGui/qtextformat.h \
-		../../../../Qt/6.8.3/mingw_64/include/QtGui/qpen.h \
-		../../../../Qt/6.8.3/mingw_64/include/QtGui/qtextoption.h \
-		../../../../Qt/6.8.3/mingw_64/include/QtWidgets/QPushButton \
-		../../../../Qt/6.8.3/mingw_64/include/QtWidgets/qpushbutton.h \
-		../../../../Qt/6.8.3/mingw_64/include/QtWidgets/qabstractbutton.h
+		ui_widget.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\widget.o widget.cpp
 
 release/moc_widget.o: release/moc_widget.cpp 
